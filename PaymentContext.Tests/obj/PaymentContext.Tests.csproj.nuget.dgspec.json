@@ -176,10 +176,6 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.0.1, )"
-            },
-            "flunt": {
-              "target": "Package",
-              "version": "[1.0.5, )"
             }
           },
           "imports": [

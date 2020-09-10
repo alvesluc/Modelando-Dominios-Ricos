@@ -90,6 +90,7 @@ D:\Programming\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.0\Payme
 D:\Programming\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.0\PaymentContext.Tests.csproj.CopyComplete
 D:\Programming\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.0\PaymentContext.Tests.dll
 D:\Programming\PaymentContext\PaymentContext.Tests\obj\Debug\netcoreapp3.0\PaymentContext.Tests.pdb
+D:\Programming\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.0\Flunt.dll
 D:\Programming\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.0\PaymentContext.Domain.dll
 D:\Programming\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.0\PaymentContext.Shared.dll
 D:\Programming\PaymentContext\PaymentContext.Tests\bin\Debug\netcoreapp3.0\PaymentContext.Shared.pdb

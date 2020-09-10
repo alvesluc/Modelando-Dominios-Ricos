@@ -9,6 +9,7 @@ namespace PaymentContext.Domain.Entities
     public class Student : Entity
     {
         private IList<Subscription> _subscriptions;
+
         public Student(Name name, Document document, Email email)
         {
             Name = name;
@@ -31,14 +32,17 @@ namespace PaymentContext.Domain.Entities
             foreach (var sub in _subscriptions)
             {
                 if (sub.Active)
-                {
                     hasSubscriptionActive = true;
-                }
             }
+
             AddNotifications(new Contract()
                 .Requires()
                 .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "Você já tem uma assinatura ativa")
+                .AreNotEquals(0, subscription.Payments.Count, "Student.Subscription.Payments", "Esta assinatura não possui pagamentos")
             );
+
+            if (Valid)
+                _subscriptions.Add(subscription);
         }
     }
 }
